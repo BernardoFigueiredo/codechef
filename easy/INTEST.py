@@ -5,7 +5,7 @@ import sys
 
 num_to_read = 65536
 
-i = input()
+i = sys.stdin.readline()
 i = i.split(" ")
 n = int(i[0])
 k = int(i[1])
